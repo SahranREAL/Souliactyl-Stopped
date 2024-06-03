@@ -1,0 +1,5 @@
+# Active les réécritures d'URL
+RewriteEngine On
+
+# Redirige les erreurs 404 vers la page personnalisée
+ErrorDocument 404 /404.html
