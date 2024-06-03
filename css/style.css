@@ -1,0 +1,1004 @@
+
+
+@import url('https://fonts.googleapis.com/css?family=Rajdhani:300,400,500,600,700');
+@import url('https://fonts.googleapis.com/css?family=Poppins:100,100i,200,200i,300,300i,400,400i,500,500i,600,600i,700,700i,800,800i,900,900i');
+
+
+@import url(animate.min.css);
+@import url(meanmenu.css);
+@import url(owl.carousel.min.css);
+@import url(jquery-ui.css);
+@import url(normalize.css);
+@import url(nice-select.css);
+@import url(slick.css);
+
+
+
+
+/*
+*
+*    Droits d'auteur et copyright Maybe Ange Corporation © 2023. Tous droits réservés.
+*
+*    Tout le contenu de ce site web, y compris mais sans s'y limiter, les textes, les images, les graphiques, les fichiers audio et vidéo, 
+*    les logos et les marques de commerce sont protégés par les lois sur les droits d'auteur et les marques de commerce applicables. 
+*    Sauf indication contraire, le contenu de ce site web est la propriété exclusive de Maybe Ange Corporation.
+*
+*    Il est interdit de reproduire, distribuer, modifier, afficher publiquement, transmettre, publier ou utiliser le contenu de ce site web à des fins 
+*    commerciales ou non commerciales sans l'autorisation écrite préalable de Maybe Ange Corporation. Toute utilisation non autorisée du contenu de ce 
+*    site web constitue une violation des droits d'auteur et des marques de commerce et peut entraîner des poursuites judiciaires.
+*
+*    Les noms, logos et marques de commerce de Maybe Ange Corporation sont la propriété exclusive de Maybe Ange et ne peuvent être 
+*    utilisés sans autorisation écrite préalable de Maybe Ange Corporation. Toute utilisation non autorisée de ces noms, logos et marques de commerce 
+*    constitue une violation des droits d'auteur et des marques de commerce et peut entraîner des poursuites judiciaires.
+*
+*    En utilisant ce site web, vous acceptez de respecter les droits d'auteur et les marques de commerce de Maybe Ange Corporation. 
+*    Si vous avez des questions ou des préoccupations concernant les droits d'auteur ou les marques de commerce de Maybe Ange Corporation, 
+*    veuillez contacter nos équipes à l'adresse électronique suivante : contact.support@maybe-ange.com
+*
+*/
+
+
+
+
+ ::-webkit-scrollbar {
+     width: 0px;
+ }
+ 
+* {
+     box-sizing: border-box !important;
+}
+
+html {
+     scroll-behavior: smooth;
+}
+
+body {
+     color: #666666;
+     font-size: 14px;
+     font-family: 'Roboto', sans-serif;
+     line-height: 1.80857;
+     font-weight: normal;
+}
+
+a {
+     color: #1f1f1f;
+     text-decoration: none !important;
+     outline: none !important;
+     -webkit-transition: all .3s ease-in-out;
+     -moz-transition: all .3s ease-in-out;
+     -ms-transition: all .3s ease-in-out;
+     -o-transition: all .3s ease-in-out;
+     transition: all .3s ease-in-out;
+}
+
+h1, h2,h3, h4, h5, h6 {
+     letter-spacing: 0;
+     font-weight: normal;
+     position: relative;
+     padding: 0 0 10px 0;
+     font-weight: normal;
+     line-height: normal;
+     color: #111111;
+     margin: 0
+}
+
+h1 {
+     font-size: 24px
+}
+
+h2 {
+     font-size: 22px
+}
+
+h3 {
+     font-size: 18px
+}
+
+h4 {
+     font-size: 16px
+}
+
+h5 {
+     font-size: 14px
+}
+
+h6 {
+     font-size: 13px
+}
+
+*, *::after, *::before {
+     -webkit-box-sizing: border-box;
+     -moz-box-sizing: border-box;
+     box-sizing: border-box;
+}
+
+h1 a, h2 a, h3 a, h4 a, h5 a, h6 a {
+     color: #212121;
+     opacity: 1;
+     text-decoration: none!important
+}
+
+button:focus {
+     outline: none;
+}
+
+ul, li, ol {
+     margin: 0px;
+     padding: 0px;
+     list-style: none;
+}
+
+p {
+     margin: 0px;
+     font-size: 16px;
+     font-weight: 300;
+     line-height: 24px;
+}
+
+a {
+     color: #222222;
+     text-decoration: none;
+     outline: none !important;
+}
+
+a, .btn {
+     text-decoration: none !important;
+     outline: none !important;
+     border-radius: 10px;
+     -webkit-transition: all .3s ease-in-out;
+     -moz-transition: all .3s ease-in-out;
+     -ms-transition: all .3s ease-in-out;
+     -o-transition: all .3s ease-in-out;
+     transition: all .3s ease-in-out;
+}
+
+ :focus {
+     outline: 0;
+}
+
+.txt-anim {
+     font-size: 26px;
+     font-weight: 900;
+     background: rgb(90,106,194);
+     background: linear-gradient(90deg, rgba(90,106,194,1) 0%, rgba(199,23,214,1) 66%, rgba(136,223,241,1) 97%);
+     background-clip:text;
+     -webkit-background-clip:text;
+     color:transparent;
+}
+
+.bkg-cursor {
+     color: white;
+     font-size: 28px;
+     animation: blink 0.8s infinite;
+}
+
+@keyframes blink {
+  0% {
+    opacity: 1;
+  }
+  50% {
+    opacity: 0;
+  }
+  100% {
+    opacity: 1;
+  }
+}
+
+.img-sec-about {
+     width: 50%;
+     height: auto;
+}
+
+.btn-custom-maybe-ange {
+     margin-top: 20px;
+     background-color: transparent !important;
+     border: 2px solid #ddd;
+     padding: 12px 40px;
+     font-size: 15px;
+}
+
+.lead {
+     font-size: 18px;
+     line-height: 30px;
+     color: #767676;
+     margin: 0;
+     padding: 0;
+}
+
+.form-control:focus {
+     border-color: #ffffff !important;
+     box-shadow: 0 0 0 .2rem rgba(255, 255, 255, .25);
+}
+
+.navbar-form input {
+     border: none !important;
+}
+
+.badge {
+     font-weight: 500;
+}
+
+blockquote {
+     margin: 20px 0 20px;
+     padding: 30px;
+}
+
+button {
+     border: 0;
+     margin: 0;
+     padding: 0;
+     cursor: pointer;
+}
+
+.full-banner {
+     float: left;
+     width: 100%;
+}
+
+.layout_padding {
+     padding-top: 90px;
+     padding-bottom: 90px;
+}
+
+.layout_padding_2 {
+     padding-top: 75px;
+     padding-bottom: 75px;
+}
+
+.light_silver {
+     background: #f9f9f9;
+}
+
+.theme_bg {
+     background: #38c8a8;
+}
+
+.margin_top_30 {
+     margin-top: 30px !important;
+}
+
+.full {
+     width: 100%;
+     float: left;
+     margin: 0;
+     padding: 0;
+}
+
+.loader_bg {
+     position: fixed;
+     z-index: 9999999;
+     background: #ffffff;
+     width: 100%;
+     height: 100%;
+}
+
+.loader {
+     height: 100%;
+     width: 100%;
+     position: absolute;
+     left: 0;
+     top: 0;
+     display: flex;
+     justify-content: center;
+     align-items: center;
+}
+
+.logo-top {
+     width: 10%;
+}
+
+.loader img {
+     width: 280px;
+}
+
+.popup {
+     display: none;
+     position: fixed;
+     z-index: 1;
+     left: 0;
+     top: 0;
+     width: 100%;
+     height: 100%;
+     overflow: auto;
+     background-color: rgba(0,0,0,0.4);
+}
+ 
+.popup-content {
+     background-color: #dcdcdc;
+     margin: 15% auto;
+     padding: 20px;
+     border: 1px solid #888;
+     width: 80%;
+}
+
+.popup-content p {
+     font-size: 16px;
+     font-weight: 600;
+     color: #000;
+}
+ 
+.close {
+     color: #aaa;
+     float: right;
+     font-size: 28px;
+     font-weight: bold;
+}
+ 
+.close:hover,
+.close:focus {
+     color: black;
+     text-decoration: none;
+     cursor: pointer;
+}
+
+.navigation.navbar {
+     float: right;
+}
+
+@media (max-width: 767px) {
+     .nav-link {
+       display: flex;
+       justify-content: space-between;
+       align-items: center;
+     }
+}
+
+.navigation.navbar-dark .navbar-nav .nav-link {
+     padding: 0 25px;
+     color: #fff;
+     font-size: 16px;
+     line-height: 20px;
+}
+
+.navigation.navbar-dark .navbar-nav .nav-link:focus,
+.navigation.navbar-dark .navbar-nav .nav-link:hover {
+     color: #f7d449;
+}
+
+.navigation.navbar-dark .navbar-nav .active>.nav-link,
+.navigation.navbar-dark .navbar-nav .nav-link.active,
+.navigation.navbar-dark .navbar-nav .nav-link.show,
+.navigation.navbar-dark .navbar-nav .show>.nav-link {
+     color: #f8d54a;
+     font-weight: 700;
+}
+
+.header {
+     background: #18184e;
+     width: 100%;
+     padding: 40px 40px 40px 40px;
+}
+
+.banner {
+     background: #18184e;
+     background-image: url("https://maybe-ange.com/images/flying-coins-2.png");
+     background-size: 100% auto;
+     padding-bottom: 90px;
+     padding-top: 120px;
+     background-repeat: no-repeat;
+}
+
+.text-bg h1 {
+     color: #fdd430;
+     font-size: 58px;
+     line-height: 80px;
+     padding-bottom: 25px;
+     font-weight: bold;
+}
+
+.text-bg p {
+     color: #f0f0f0;
+     font-size: 16px;
+     padding: 40px 0;
+     line-height: 28px;
+}
+
+.text-bg a {
+     font-size: 16px;
+     background-color: #f0f0f0;
+     color: #000000;
+     padding: 10px 0px;
+     width: 100%;
+     max-width: 260px;
+     text-align: center;
+     display: inline-block;
+     text-transform: uppercase;
+}
+
+.text-bg a:hover {
+     background-color: #1d4bca;
+     color: #fff;
+}
+
+.text-img figure {
+     margin: 0px;
+}
+
+.text-img figure img {
+     width: 100%;
+}
+
+.titlesection {
+     text-align: center;
+     padding-bottom: 60px;
+}
+
+.titlesection h2 {
+     font-size: 45px;
+     color: #0c0f38;
+     line-height: 40px;
+     font-weight: bold;
+     padding: 0;
+}
+
+.hosting {
+     padding-top: 90px;
+}
+
+.host-softky {
+     text-align: center;
+}
+
+.host-softky figure {
+     margin: 0;
+}
+
+.host-softky p {
+     color: #0c0f38;
+     font-size: 17px;
+     line-height: 28px;
+     padding: 40px 50px;
+}
+
+.host-softky a {
+     font-size: 16px;
+     background-color: #2c2c2c;
+     color: #fff;
+     padding: 10px 0px;
+     width: 100%;
+     max-width: 190px;
+     text-align: center;
+     display: inline-block;
+     text-transform: uppercase;
+     font-weight: 400;
+     margin-top: 10px;
+}
+
+.host-softky a:hover {
+     background-color: #2b86c2;
+     color: #fff;
+}
+
+.Services {
+     margin-top: 90px;
+     padding: 60px 0;
+     background: #1a1f61;
+     font-family: Poppins;
+}
+
+.Services .titlesection {
+     text-align: center;
+}
+
+.Services .titlesection h2 {
+     color: #fff;
+     padding-bottom: 20px;
+}
+
+.Services .titlesection p {
+     color: #fff;
+}
+
+.Services .Services-box i {
+     background: #dadada;
+     width: 100px;
+     height: 100px;
+     border-radius: 40px;
+     display: inline-block;
+     padding-top: 19px;
+}
+
+.Services .Services-box i:hover {
+     background: #ddd;
+}
+
+.Services .Services-box h3 {
+     padding: 20px 0px 20px 0px;
+     font-size: 20px;
+     line-height: 25px;
+     color: #fff;
+     display: block;
+     font-weight: 500;
+}
+
+.Services .Services-box {
+     text-align: center;
+     background-color: transparent;
+     border-radius: 20px;
+     border: #cecfd7 solid 2px;
+     padding: 40px;
+     transition: ease-in all 0.5s;
+     margin-bottom: 30px;
+}
+
+.Services .Services-box:hover {
+     background: #3607df;
+     transition: ease-in all 0.3s;
+     cursor: pointer;
+}
+
+.Services .Services-box p {
+     font-size: 16px;
+     line-height: 24px;
+     color: #fff;
+}
+
+.video video {
+     width: 80%;
+     height: auto;
+}
+
+.col-vid {
+     text-align: center;
+     margin-top: 20px;
+     margin-bottom: 20px;
+}
+
+.btn-primary {
+     font-size: 16px;
+     font-weight: 400;
+     background-color: #1a45e0;
+     color: #ffffff;
+     padding: 10px 0px;
+     max-width: 350px;
+     display: flex;
+     width: 100%;
+     text-align: center;
+     justify-content: center;
+     margin: 0 auto;
+     margin-top: 20px;
+}
+
+.btn-primary:hover {
+     background: #0872eb;
+     color: #fff;
+}
+
+.container-offers {
+     display: flex;
+     flex-wrap: wrap;
+     justify-content: center;
+     align-items: center;
+     max-width: 1000px;
+     margin: 0 auto;
+     padding: 20px;
+     padding-top: 80px;
+     padding-bottom: 80px;
+}
+
+.hr-payout {
+     width: 50%;
+     height: 1px;
+     padding-top: -30px;
+     padding-bottom: -30px;
+}
+
+.hr-payout-black {
+     background-color: black;
+     width: 50%;
+     height: 1px;
+     padding-top: -30px;
+     padding-bottom: -30px;
+}
+
+.offer {
+     flex: 1;
+     margin: 10px;
+     padding: 20px;
+     text-align: center;
+     border: 2px solid #000000;
+     border-radius: 5px;
+     box-shadow: 0 2px 4px rgba(0, 0, 0, 0.3);
+}
+
+.offer h2 {
+     margin-top: 0;
+     font-size: 30px;
+}
+
+.price {
+     font-size: 26px;
+     color: rgb(28, 88, 255);
+     font-weight: bold;
+     padding-top: 12px;
+     padding-bottom: 40px;
+}
+
+.offer p {
+     margin-bottom: 0;
+}
+
+.offer-free {
+     background-color: #ffffff;
+}
+
+.offer-paid {
+     background-color: #2964e6;
+}
+
+.white {
+     color: white;
+}
+
+.price-white {
+     color: rgb(255, 255, 255);
+     font-size: 26px;
+     font-weight: bold;
+     padding-top: 12px;
+     padding-bottom: 40px;
+}
+
+.offer-paid p {
+     color: white;
+}
+
+.offer-cta {
+     margin-top: 20px;
+}
+
+.offer-cta a {
+     display: inline-block;
+     padding: 10px 20px;
+     background-color: #333;
+     color: #fff;
+     text-decoration: none;
+     border-radius: 5px;
+     transition: background-color 0.3s;
+}
+
+.offer-cta a:hover {
+     background-color: #666;
+}
+
+.offer-cta:active {
+     transform: scale(1.01);
+   }
+
+.footer {
+  background-color: #10103A;
+  padding: 90px 0 20px;
+  padding-bottom: 50px;
+  font-size: 15px;
+  line-height: 24px;
+  color: #737373;
+}
+
+.footer hr {
+  border-top-color:#bbb;
+  opacity:0.5
+}
+
+.footer hr.small {
+  margin:20px 0
+}
+
+.footer h6 {
+  color:#ffffff;
+  font-size:16px;
+  text-transform:uppercase;
+  margin-top:5px;
+  letter-spacing:2px
+}
+
+.footer a {
+  color:#737373;
+}
+
+.buttom-txt {
+     margin-right: 50px;
+}
+
+.footer a {
+     padding-right: 50px;
+}
+
+.footer a:hover {
+  color:#3366cc;
+  text-decoration:none;
+}
+
+.footer-links {
+  padding-left:0;
+  list-style:none
+}
+
+.footer-links li {
+  display:block
+}
+
+.footer-links a {
+  color:#737373
+}
+
+.footer-links a:active,.footer-links a:focus,.footer-links a:hover {
+  color:#3366cc;
+  text-decoration:none;
+}
+
+.footer-links.inline li {
+  display:inline-block
+}
+
+.copyright-text {
+  margin:0
+}
+
+@media (max-width:991px) {
+  .footer [class^=col-] {
+    margin-bottom:30px
+  }
+}
+
+@media (max-width:767px) {
+  .footer {
+    padding-bottom:0
+  }
+}
+
+.Softky {
+     color: #3366cc;
+}
+
+.img-top-heberg {
+     max-width: 100%;
+     height: auto;
+     width: 80%;
+     max-height: 300px; 
+}
+
+
+
+/*
+*
+*
+*
+*
+*    Contact Page
+*
+*
+*
+*/
+
+
+
+.container-contact, .container-faq{
+     max-width: 800px;
+     margin: 0 auto;
+     padding: 20px;
+     margin-top: 80px;
+     margin-bottom: 80px;
+     background-color: #ffffff;
+     box-shadow: 0px 0px 10px rgba(0,0,0,0.2);
+}
+
+.form-group {
+     margin-bottom: 20px;
+}
+
+.form-group label {
+     display: block;
+     margin-bottom: 5px;
+     font-weight: bold;
+}
+
+.form-group input[type="text"],
+.form-group input[type="email"],
+.form-group textarea {
+     width: 100%;
+     padding: 10px;
+     border-radius: 5px;
+     border: none;
+     background-color: #dbdbdb;
+     font-size: 16px;
+     color: #333;
+     resize: none;
+}
+
+.form-group input[type="submit"] {
+     display: block;
+     width: 100%;
+     padding: 10px;
+     background-color: #4CAF50;
+     color: #fff;
+     border: none;
+     border-radius: 5px;
+     font-size: 16px;
+     cursor: pointer;
+}
+
+@media screen and (max-width: 600px) {
+     .container {
+          max-width: 100%;
+          padding: 10px;
+     }
+}
+
+.return {
+     margin-top: 80px;
+     margin-bottom: 80px;
+}
+
+.emailSend {
+     background-color: green;
+     color: white;
+     text-align: center;
+     border-radius: 10px;
+     padding: 10px;
+     max-width: 800px;
+     margin: 0 auto;
+}
+
+.btn-placement {
+     padding: 5px 0px;
+     width: 100%;
+     max-width: 260px;
+}
+
+
+
+/*
+*
+*
+*
+*
+*    Legal Page
+*
+*
+*
+*/
+
+
+
+.softky-legal {
+     color: #0872eb;
+}
+
+.name-legal {
+     color: #000;
+     font-weight: 600;
+}
+
+
+
+/*
+*
+*
+*
+*
+*    FAQ Page
+*
+*
+*
+*/
+
+
+
+.header-txt-faq {
+     margin-top: 50px;
+     padding: 10px 0px 10px 0px;
+     font-size: 24px;
+     text-align: center;
+     background-color: yellow;
+     border-radius: 10px;
+}
+
+.header-txt-faq p {
+     color: #000;
+     font-weight: 600;
+}
+
+.faq-header {
+     color: #0872eb;
+     font-size: 26px;
+     font-weight: 600;
+     padding: 20px 0px 20px 0px;
+}
+
+.pre-faq {
+     padding: 20px 0px 20px 0px;
+}
+
+.pre-faq a {
+     font-size: 16px;
+     font-weight: 700;
+     color: #081feb;
+}
+
+.pre-faq h2 {
+     color: #000;
+     font-weight: 700;
+}
+
+.faq h3 {
+     color: #000;
+     font-weight: 700;
+}
+
+.faq span {
+     font-size: 18px;
+     color: #000;
+     text-decoration: underline;
+}
+
+.faq a {
+     color: red;
+}
+
+.faq b {
+     color: #000;
+     font-size: 16px;
+     font-weight: 700;
+}
+
+.faq c {
+     color: #0872eb;
+     font-weight: 700;
+}
+
+.warning {
+     background-color: yellow;
+     padding: 10px 10px 10px 10px;
+     border-radius: 10px;
+}
+
+.warning p {
+     color: #000;
+     font-weight: 700;
+}
+
+.faq img {
+     max-width: 100%;
+     height: auto;
+     width: 50%;
+}
+
+.container-img {
+     text-align: center;
+}
+
+.faq code {
+     background-color: #4e4e4e;
+     color: white;
+     padding: 3px 0px 3px 0px;
+     border-radius: 5px;
+}
+
+.button-return {
+     display: inline-block;
+     padding: 10px 10px;
+     font-size: 14px;
+     font-weight: bold;
+     text-align: center;
+     text-decoration: none;
+     background-color: #4CAF50;
+     color: #fff;
+     border-radius: 5px;
+     border: none;
+     box-shadow: 0px 5px 10px rgba(0,0,0,0.3);
+     transition: all 0.3s ease-in-out;
+ }
+ 
+.button-return:hover {
+     background-color: #3e8e41;
+     color: #fff;
+     box-shadow: 0px 10px 20px rgba(0,0,0,0.3);
+}
+ 
+.button-return:active {
+     transform: scale(0.95);
+     transition: all 0.1s ease-in-out;
+}
+
+.button-return a {
+     color: white;
+}
