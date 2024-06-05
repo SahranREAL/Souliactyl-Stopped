@@ -1,8 +1,11 @@
 # Souliactyl
 
-Welcome to the Souliactyl project! This project will allow you to easily create and manage your own hosting site.
+Welcome to the Souliactyl project! This project will allow you to easily create your own hosting site.
 
 ![image](https://github.com/SahranREAL/Souliactyl/assets/94926019/e03ded18-0100-4a67-8f3d-880e184a2f94) ![image](https://github.com/SahranREAL/Souliactyl/assets/94926019/0d1da5fe-3153-4c79-8cdb-0443ee8040f2)
+
+> [!WARNING]  
+> Versions below 1.0.0 are not ready for professional use because a lot of things are missing!
 
 ## Installation
 
