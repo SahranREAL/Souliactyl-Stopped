@@ -30,6 +30,13 @@ To get started, please follow the steps below:
 5. **Starting the server:**
    Once everything is configured, you can start your web server to see your site in action.
 
+
+## Configuration
+
+1. **Setup betterStack:**
+```html
+<iframe src="https://your-uptime-name.betteruptime.com/badge?theme=dark" width="250" height="30" frameborder="0" scrolling="no"></iframe>
+```
 ## Contributing
 
 Contributions are welcome! If you have any suggestions or improvements, feel free to open an issue on the GitHub repository or submit a pull request.
