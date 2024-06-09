@@ -37,6 +37,8 @@ To get started, please follow the steps below:
 ```html
 <iframe src="https://your-uptime-name.betteruptime.com/badge?theme=dark" width="250" height="30" frameborder="0" scrolling="no"></iframe>
 ```
+
+2. **[wiki](https://github.com/SahranREAL/Souliactyl/wiki)**
 ## Contributing
 
 Contributions are welcome! If you have any suggestions or improvements, feel free to open an issue on the GitHub repository or submit a pull request.
