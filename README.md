@@ -42,7 +42,10 @@ To get started, please follow the steps below:
 
 ## PatchNote:
 - 
-- 
+
+## Futur patch:
+- 404 page
+- reviews page
 
 
 ## Contributing
