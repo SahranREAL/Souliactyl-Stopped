@@ -5,7 +5,7 @@ Welcome to the Souliactyl project! This project will allow you to easily create 
 
 
 > [!WARNING]  
-> Versions below 0.0.3 are not ready for professional use because a lot of things are missing!
+> Versions below 1.0.0 are not ready for professional use because a lot of things are missing!
 
 ## Installation
 
