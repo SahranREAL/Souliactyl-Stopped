@@ -39,6 +39,12 @@ To get started, please follow the steps below:
 ```
 
 2. **[wiki](https://github.com/SahranREAL/Souliactyl/wiki)**
+
+## PatchNote:
+- 
+- 
+
+
 ## Contributing
 
 Contributions are welcome! If you have any suggestions or improvements, feel free to open an issue on the GitHub repository or submit a pull request.
