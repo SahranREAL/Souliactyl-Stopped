@@ -45,12 +45,12 @@ const execute = function executeCommand(input) {
     }
     //If user enter the word cls
     else if (input === "clear") {
-        terminalOutput.innerHTML = "";
+        terminalOutput.innerHTML = "404.html";
         return;
     }
     //If the user enters one of the words 'exit' and 'close'
     else if (input === "close" || input === "exit") {
-        document.location.href = "index.html" // The link that the user enters after sending the exit
+        document.location.href = "../index.html" // The link that the user enters after sending the exit
         return;
     }
     //If the user enters the word report
