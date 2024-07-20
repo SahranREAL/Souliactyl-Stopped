@@ -33,19 +33,10 @@ To get started, please follow the steps below:
 
 ## Configuration
 
-1. **Setup betterStack:**
-```html
-<iframe src="https://your-uptime-name.betteruptime.com/badge?theme=dark" width="250" height="30" frameborder="0" scrolling="no"></iframe>
-```
+SOON
 
-2. **[wiki](https://github.com/SahranREAL/Souliactyl/wiki)**
-
-## PatchNote:
-- 
-
-## Futur patch:
-- 404 page
-- reviews page
+## Future Update:
+- add config.js
 
 
 ## Contributing
