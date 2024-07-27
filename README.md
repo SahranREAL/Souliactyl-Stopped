@@ -50,3 +50,9 @@ This project is licensed under the MIT License. For more information, please see
 ---
 
 Thank you for using Souliactyl! If you have any questions or issues, feel free to contact the development team.
+
+
+
+## Star History
+
+[![Star History Chart](https://api.star-history.com/svg?repos=souliactyl/souliactyl,https:/,sahranreal/souliactyl&type=Date)](https://star-history.com/#souliactyl/souliactyl&https:/&sahranreal/souliactyl&Date)
