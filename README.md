@@ -55,4 +55,4 @@ Thank you for using Souliactyl! If you have any questions or issues, feel free t
 
 ## Star History
 
-[![Star History Chart](https://api.star-history.com/svg?repos=souliactyl/souliactyl,https:/,sahranreal/souliactyl&type=Date)](https://star-history.com/#souliactyl/souliactyl&https:/&sahranreal/souliactyl&Date)
+[![Star History Chart](https://api.star-history.com/svg?repos=sahranreal/souliactyl&type=Date)](https://star-history.com/#sahranreal/souliactyl&Date)
