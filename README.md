@@ -37,6 +37,8 @@ SOON
 
 ## Future Update:
 - add config.js
+- patch service page
+- patch team page
 
 
 ## Contributing
