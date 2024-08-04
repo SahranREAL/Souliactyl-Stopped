@@ -1,7 +1,7 @@
 # Souliactyl V.0.0.3
 
 Welcome to the Souliactyl project! This project will allow you to easily create your own hosting site.
-![souliactyl](https://github.com/SahranREALz/Souliactyl/assets/94926019/c3ee3f32-bc26-44b1-8dd3-a6e74be611fe)
+![souliactyl](https://github.com/SahranREAL/Souliactyl/assets/94926019/c3ee3f32-bc26-44b1-8dd3-a6e74be611fe)
 
 
 > [!WARNING]  
