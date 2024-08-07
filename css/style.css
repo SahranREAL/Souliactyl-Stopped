@@ -379,7 +379,7 @@ button {
 }
 
 .text-bg h1 {
-     color: #fdd430;
+     color: white;
      font-size: 58px;
      line-height: 80px;
      padding-bottom: 25px;
@@ -552,6 +552,7 @@ button {
   max-width: 350px;
   display: flex;
   width: 100%;
+  border-radius: 8px;
   text-align: center;
   justify-content: center;
   margin: 0 auto;
