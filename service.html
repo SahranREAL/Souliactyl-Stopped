@@ -1,106 +1,19 @@
 <!DOCTYPE html>
 <html lang="en">
 <head>
+    <title>SoulNode - Services</title>
     <meta charset="utf-8">
     <meta name="robots" content="index,follow">
     <meta name="googlebot" content="index,follow">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1">
     <meta name="viewport" content="initial-scale=1, maximum-scale=1">
-    <title>SoulNode - Services</title>
     <link rel="stylesheet" href="css/bootstrap.min.css">
     <link rel="stylesheet" href="css/style.css">
     <link rel="stylesheet" href="css/responsive.css">
-    <link rel="shortcut icon" href="assets/images/logo.png" type="image/x-icon">
+    <link rel="shortcut icon" href="images/logo.png" type="image/x-icon">
     <link rel="stylesheet" href="https://netdna.bootstrapcdn.com/font-awesome/4.0.3/css/font-awesome.css">
-    <style>
-        /* Réinitialisation des marges et des remplissages pour éliminer les espaces indésirables */
-        body, html {
-            margin: 0;
-            padding: 0;
-        }
 
-        /* Ajustement des marges pour les sections */
-        .header {
-            margin-bottom: 0;
-        }
-
-        .Services {
-            padding-top: 20px;
-            margin-top: 0;
-        }
-
-        /* Ajustement des marges et des remplissages pour les images */
-        .Services-box img {
-            max-width: 100%; /* Ajustez cette valeur selon vos besoins */
-            height: auto;
-            display: block;
-            margin: 0 auto 20px auto;
-        }
-
-        /* Centrage des éléments de service */
-        .Services-box {
-            text-align: center;
-            padding: 20px;
-            margin-bottom: 30px;
-            background: #f9f9f9; /* Couleur de fond pour la boîte de service */
-            border-radius: 8px; /* Coins arrondis pour un meilleur style */
-        }
-
-        /* Styles pour les titres et les paragraphes */
-        .Services-box h3 {
-            margin-top: 15px;
-            margin-bottom: 10px;
-        }
-
-        .Services-box p {
-            margin: 0;
-            padding: 0;
-        }
-
-        /* Ajustement des marges du pied de page */
-        footer.footer {
-            margin-top: 0px;
-            padding-top: 20px;
-            background: #10103A;
-            color: #fff;
-        }
-
-        footer.footer .footer-links a {
-            color: #fff;
-            text-decoration: none;
-        }
-
-        footer.footer .footer-links a:hover {
-            text-decoration: underline;
-        }
-
-        /* Alignement du texte dans le footer */
-        .footer .title-company {
-            font-weight: bold;
-            margin-bottom: 10px;
-        }
-
-        .footer .buttom-txt {
-            margin-bottom: 0;
-        }
-
-        /* Responsiveness adjustments */
-        @media (max-width: 767px) {
-            .Services-box img {
-                max-width: 80%; /* Ajustement de la taille de l'image pour les petits écrans */
-            }
-        }
-
-/* Ajustement de la taille de l'icône VPS */
-.vps-icon {
-    max-width: 30px; /* Ajustez cette valeur selon vos besoins */
-    margin-top: 100px; /* Déplace l'icône VPS vers le haut de 10 pixels */
-}
-
-
-
-    </style>
 </head>
 <body>
     <header>
@@ -111,7 +24,7 @@
                         <div class="full">
                             <div class="logo-desk">
                                 <div class="logo">
-                                    <img id="logo-img" src="images/soulnode.png" alt="SoulNode Logo" />
+                                    <img id="logo-img" src="images/soulnode.png" alt="Logo" />
                                 </div>
                             </div>
                         </div>
@@ -129,15 +42,11 @@
                                     <li class="nav-item active">
                                         <a class="nav-link" href="services.html">Services</a>
                                     </li>
-
-                                    
-                              <li class="nav-item">
-                                <a class="nav-link" href="https://paen.com"> Panel</a>
-                             </li>  
-
-
                                     <li class="nav-item">
-                                        <a class="nav-link" href="http://dash.soulnodes.fr.nf" rel="noopener" target="_blank">Dashboard</a>
+                                        <a class="nav-link" href="https://panel.soulnode.foxping.ovh"> Panel</a>
+                                    </li>  
+                                    <li class="nav-item">
+                                        <a class="nav-link" href="http://dash.soulnode.foxping.ovh" rel="noopener" target="_blank">Dashboard</a>
                                     </li>
                                     <li class="nav-item">
                                         <a class="nav-link" href="https://discord.gg/JptV2rWgac" rel="noopener" target="_blank">Discord <i class="fa-brands fa-discord"></i></a>
@@ -153,6 +62,7 @@
 
     <div id="services" class="Services">
         <div class="container">
+
             <div class="row">
                 <div class="col-md-12">
                     <div class="titlesection">
@@ -162,41 +72,74 @@
                 </div>
             </div>
 
-
-<!--Minecraft:-->
-<div class="row">
-    <div class="col-xl-4 col-lg-4 col-md-4 col-sm-12">
-        <a href="service/minecraft.html">
-            <div class="Services-box">
-                <i><img src="images/image_2024-07-01_210056719.png" alt="Service Cloud" /></i>
-                <h3>Minecraft</h3>
-                <p>Host your minecraft server and manage it</p>
-            </div>
-        </a>
-    </div>
-
-
-            <!--discord:-->
+            <div class="row">
+                <!-- Minecraft -->
                 <div class="col-xl-4 col-lg-4 col-md-4 col-sm-12">
-                <a href="service/discord.html">
+                    <a href="service/minecraft.html"></a>
+                        <div class="Services-box">
+                            <i><img src="images/image_2024-07-01_210056719.png" alt="Service Cloud" /></i>
+                            <h3>Minecraft</h3>
+                            <p>Host your minecraft server and manage it</p>
+                        </div>
+                    </a>
+                </div>
+            
+                <!-- Discord -->
+                <div class="col-xl-4 col-lg-4 col-md-4 col-sm-12">
+                <a href="service/discord.html"></a>
                     <div class="Services-box">
                         <i><img src="images/programming.png" alt="Service Bot Discord" /></i>
                         <h3>Discord bot</h3>
                         <p>Host and manage your Discord bots with ease and reliability.</p>
                     </div>
                 </div>
+            </div>
+        </div>
+    </div>
+    <footer class="footer">
+        <div class="container">
+          <div class="row">
+            <div class="col-sm-12 col-md-6">
+              <h6 class="title-company">SoulNode</h6>
+              <p class="buttom-txt">SoulNode is a free host created in 2024, join SoulNode immediately</p>
+            </div>
 
-
-
-
-    
-    
-
-
-
-
-
+            <div class="col-xs-6 col-md-3">
+              <h6>Categories</h6>
+              <ul class="footer-links">
+                <li><a href="">Discord</a></li>
+                <li><a href="https://panel.soulnode.foxping.ovh">Panel</a></li>
+                <li><a href="team.html">Our team</a></li>
+                <li><a href="reviews.html">Reviews</a></li>
+              </ul>
+            </div>
       
+            <div class="col-xs-5 col-md-3">
+              <h6>Legal</h6>
+              <ul class="footer-links">
+                <li><a href="legal.html">Terms & Conditions</a></li>
+                <br>
+              </ul>
+            </div>
+          </div>
+          <hr>
+        </div>
+        <div class="container">
+           <div class="row">
+              <div class="col-md-8 col-sm-6 col-xs-12">
+                 <div>
+                    <p>
+                       Site designed and developed by <a style="color: #3366cc;" href="https://github.com/SahranREAL" rel="noopener" target="_blank">Sahran</a>
+                    </p>
+                 </div>
+                 <p class="copyright-text">
+                    <span style="color: #3366cc;">SoulNode</span> &copy; 2024 All Rights Reserved | proposed by
+                    <a style="color: #3366cc;" href="https://github.com/SahranREAL" rel="noopener" target="_blank"> Souliactyl V.0.0.3</a>
+                 </p>
+              </div>
+           </div>
+        </div>
+     </footer>
 
      <script src="js/jquery.min.js"></script>
      <script src="js/script.js"></script>

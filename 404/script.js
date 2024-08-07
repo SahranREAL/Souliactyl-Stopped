@@ -36,9 +36,8 @@ const app = () => {
 const execute = function executeCommand(input) {
     let output;
 
-    if (input.length === 0) {
-        return;
-    }
+    if (input.length === 0) return;
+    
     //If what the user entered is not in the command list
     if (!COMMANDS.hasOwnProperty(input)) {
         output = `<p>The command entered is not correct</p>`;
