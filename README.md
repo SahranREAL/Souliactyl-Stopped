@@ -52,7 +52,7 @@ This project is licensed under the MIT License. For more information, please see
 ---
 
 Thank you for using Souliactyl! If you have any questions or issues, feel free to contact the development team.
-
+[Original template](https://html.design/download/data-web-hosting-template/amp/)
 
 
 ## Star History
