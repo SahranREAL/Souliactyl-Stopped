@@ -1,11 +1,11 @@
-# Souliactyl V.0.0.3
-
-Welcome to the Souliactyl project! This project will allow you to easily create your own hosting site.
 ![souliactyl](https://github.com/SahranREAL/Souliactyl/assets/94926019/c3ee3f32-bc26-44b1-8dd3-a6e74be611fe)
 
+# Souliactyl V.0.0.3
 
 > [!WARNING]  
 > Versions below 1.0.0 are not ready for professional use because a lot of things are missing!
+
+Welcome to the Souliactyl project! This project will allow you to easily create your own hosting site.
 
 ## Installation
 
@@ -30,17 +30,6 @@ To get started, please follow the steps below:
 5. **Starting the server:**
    Once everything is configured, you can start your web server to see your site in action.
 
-
-## Configuration
-
-SOON
-
-## Future Update:
-- add config.js
-- patch service page
-- patch team page
-
-
 ## Contributing
 
 Contributions are welcome! If you have any suggestions or improvements, feel free to open an issue on the GitHub repository or submit a pull request.
@@ -52,8 +41,6 @@ This project is licensed under the MIT License. For more information, please see
 ---
 
 Thank you for using Souliactyl! If you have any questions or issues, feel free to contact the development team.
-
-
 
 ## Star History
 

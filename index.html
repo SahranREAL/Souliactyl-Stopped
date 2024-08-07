@@ -1,105 +1,43 @@
 <!DOCTYPE html>
 <html lang="en">
    <head>
+      <title>SoulNode</title>
       <meta charset="utf-8">
       <meta name="robots" content="index,follow">
 	   <meta name="googlebot" content="index,follow">
       <meta http-equiv="X-UA-Compatible" content="IE=edge">
       <meta name="viewport" content="width=device-width, initial-scale=1">
       <meta name="viewport" content="initial-scale=1, maximum-scale=1">
-      <title>SoulNode</title>
-      <meta name="keywords" content="Hebergeur gratuit">
+      <meta name="keywords" content="free,hosting,soulnode,pterodactyl,wings,">
       <link rel="stylesheet" href="css/bootstrap.min.css">
       <link rel="stylesheet" href="css/style.css">
       <link rel="stylesheet" href="css/responsive.css">
-      <link rel="shortcut icon" href="assets/images/logo.png" type="image/x-icon">
+      <link rel="shortcut icon" href="images/logo.png" type="image/x-icon">
       <link rel="stylesheet" href="https://netdna.bootstrapcdn.com/font-awesome/4.0.3/css/font-awesome.css">
-      <script async src="https://api.countapi.xyz/hit/softky.eu/90b43e5e-658f-40e9-8681-faa605cb01b7?callback=websiteVisits"></script>
-         <script>
-            function websiteVisits(response) {
-               document.querySelector("#visits").textContent = response.value;}
-         </script>
-      <script src="https://cdnjs.cloudflare.com/ajax/libs/prefixfree/1.0.7/prefixfree.min.js"></script>
       <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/highlight.js/11.3.1/styles/vs.min.css">
+      <script src="https://cdnjs.cloudflare.com/ajax/libs/prefixfree/1.0.7/prefixfree.min.js"></script>
       <script src="https://cdnjs.cloudflare.com/ajax/libs/highlight.js/11.3.1/highlight.min.js"></script>
-
-
+      <script>
+         function websiteVisits(response) {
+            document.querySelector("#visits").textContent = response.value;
+         }
+      </script>
    </head>
-
-
-
    <body class="layout-cc-by-nd">
-      
-      <div class="loader_bg">
-         <div class="loader"><img src="images/loading.gif" alt="#" /></div>
-      </div>
       <header>
          <div class="header">
             <div class="container">
                <div class="row">
-                  <div class="col-xl-3 col-lg-3 col-md-3 col-sm-3 col logo_maybe_ange_softky_section">
+                  
+                  <div class="col-xl-3 col-lg-3 col-md-3 col-sm-3 col">
                      <div class="full">
                         <div class="logo-desk">
                            <div class="logo">
-                              <img id="logo-img" onmousedown="return false" src="images/soulnode.png" alt="#" />
-                           </div>
-                           <div id="popup" class="popup">
-                              <div class="popup-content">
-                                 <span class="close" onclick="closePopup()">&times;</span>
-                                 <p>Well done, you found a hidden message.</p><hr>
-                                 <p>In what programming language is this code coded?</p>
-                                 <pre><code class="hljs javascript"><span style="color: rgb(255, 0, 132)">string message</span> = <span style="color: #60b449; font-weight: 700;">"Hello!"</span>;<br><span style="color: rgb(255, 0, 132)">Console</span>.<span style="color: #ffa201;">WriteLine</span>(<span style="color: rgb(255, 0, 132)">message</span>.<span style="color: #ffa201;">Length</span>);<br><span style="color: rgb(255, 0, 132)">Console</span>.<span style="color: #ffa201;">WriteLine</span>(<span style="color: rgb(255, 0, 132)">message</span>.<span style="color: #ffa201;">ToLower</span>());</code></pre><br>
-                                 <form>
-                                    <input type="radio" id="JavaScript" name="langage" value="JavaScript">
-                                    <label for="JavaScript">JavaScript</label><br>
-                                    <input type="radio" id="Python" name="langage" value="Python">
-                                    <label for="Python">Python</label><br>
-                                    <input type="radio" id="Php" name="langage" value="Php">
-                                    <label for="Php">Php</label><br>
-                                    <input type="radio" id="C#" name="langage" value="C#">
-                                    <label for="C#">C#</label><br><br>
-                                    <input type="submit" value="Soumettre">
-                                 </form>
-                              </div>
+                              <img id="logo-img" src="images/soulnode.png" alt="logo" />
                            </div>
                         </div>
                      </div>
                   </div>
-
-                  <script>
-                     var logoImg = document.getElementById("logo-img");
-                     var popup = document.getElementById("popup");
-                     var closeBtn = document.querySelector(".close");
-                     logoImg.addEventListener("click", function() {
-                        popup.style.display = "block";
-                     });
-                  
-                     function closePopup(event) {
-                        event.stopPropagation();
-                        popup.style.display = "none";
-                     }
-                  
-                     closeBtn.addEventListener("click", closePopup);
-                  
-                     window.addEventListener("click", function(event) {
-                        if (event.target == popup || popup.contains(event.target) || event.target == closeBtn || closeBtn.contains(event.target)) {
-                           event.stopPropagation();
-                           return;
-                        }
-                        closePopup();
-                     });
-                  
-                     document.querySelector("form").addEventListener("submit", function(event) {
-                        event.preventDefault();
-                        var answer = document.querySelector('input[name="langage"]:checked').value;
-                        if (answer === "C#") {
-                           alert("Congratulations, you found the correct answer!");
-                           closePopup(event);
-                        } else {
-                           alert("Sorry, the correct answer was C#.");
-                        }
-                     });
-                  </script>
                   
                   <div class="col-xl-9 col-lg-9 col-md-9 col-sm-9">
                      <nav class="navigation navbar navbar-expand-md navbar-dark ">
@@ -159,54 +97,52 @@
 
       <script>
          async function init () {
-            const node = document.querySelector("#type-text")
+            const text = document.querySelector("#type-text")
             
             await sleep(1000)
-            node.innerText = ""
+            text.innerText = ""
 
-            
             while (true) {
-               await node.type("FREE SERVICE")
+               await text.type("FREE SERVICE")
                await sleep(2000)
-               await node.delete("FREE SERVICE")
-               await node.type("QUICK ASSISTANCE")
+               await text.delete("FREE SERVICE")
+               await text.type("QUICK ASSISTANCE")
                await sleep(2000)
-               await node.delete('QUICK ASSISTANCE')
-               await node.type("EASY TO USE")
+               await text.delete('QUICK ASSISTANCE')
+               await text.type("EASY TO USE")
                await sleep(2000)
-               await node.delete("EASY TO USE")
+               await text.delete("EASY TO USE")
             }
-            }
+         }
 
-            const sleep = time => new Promise(resolve => setTimeout(resolve, time))
-
-            class TypeAsync extends HTMLSpanElement {
-            get typeInterval () {
-               const randomMs = 100 * Math.random()
-               return randomMs < 50 ? 10 : randomMs
+         const sleep = time => new Promise(resolve => setTimeout(resolve, time))
+         class TypeAsync extends HTMLSpanElement {
+         get typeInterval () {
+            const randomMs = 100 * Math.random()
+            return randomMs < 50 ? 10 : randomMs
+         }
+         
+         async type (text) {
+            for (let character of text) {
+               this.innerText += character
+               await sleep(this.typeInterval)
             }
-            
-            async type (text) {
-               for (let character of text) {
-                  this.innerText += character
-                  await sleep(this.typeInterval)
-               }
+         }
+         
+         async delete (text) {
+            for (let character of text) {
+               this.innerText = this.innerText.slice(0, this.innerText.length -1)
+               await sleep(this.typeInterval)
             }
-            
-            async delete (text) {
-               for (let character of text) {
-                  this.innerText = this.innerText.slice(0, this.innerText.length -1)
-                  await sleep(this.typeInterval)
-               }
-            }
-            }
-
-            customElements.define('type-async', TypeAsync, { extends: 'span' })
-            init()
+         }
+         }
+         customElements.define('type-async', TypeAsync, { extends: 'span' })
+         init()
       </script>
 
       <div id="about" class="hosting">
          <div class="container">
+
             <div class="row">
                <div class="col-md-12">
                   <div class="titlesection">
@@ -214,15 +150,19 @@
                   </div>
                </div>
             </div>
+
             <div class="row">
                <div class="col-md-12">
                   <div class="host-softky">
-                     <figure><img onmousedown="return false" class="img-sec-about" src="images/PngItem_1619447.png" alt="softky-about"/></figure>
+                     <figure>
+                        <img onmousedown="return false" class="img-sec-about" src="images/PngItem_1619447.png" alt="about"/>
+                     </figure>
                      <p>We offer quality hosting of all choices such as: website, discord bot, vps etc... And if you want to improve your resources you can pay at low prices.</p>
                      <a href="service.html">Learn more</a>
                   </div>
                </div>
             </div>
+
          </div>
       </div>
 
@@ -232,29 +172,28 @@
                <div class="col-md-12">
                   <div class="titlesection">
                      <h2>Services</h2>
-                     <p>The services below are our favorite offerings
-                     </p>
+                     <p>The services below are our favorite offerings</p>
                   </div>
                </div>
             </div>
             <div class="row">
                <div class="col-xl-4 col-lg-4 col-md-4 col-sm-12">
                   <div class="Services-box">
-                     <i><img src="images/cloud-network.png" alt="softky-services" /></i>
+                     <i><img src="images/cloud-network.png" alt="services" /></i>
                      <h3>Hosting</h3>
                      <p>At SoulNode, all are free</p>
                   </div>
                </div>
                <div class="col-xl-4 col-lg-4 col-md-4 col-sm-12">
                   <div class="Services-box">
-                     <i><img src="images/programming.png" alt="softky-services" /></i>
+                     <i><img src="images/programming.png" alt="services" /></i>
                      <h3>Language</h3>
                      <p>Is your bot coded in Python? No worries, we support JavaScript, Python and Java.</p>
                   </div>
                </div>
                <div class="col-xl-4 col-lg-4 col-md-4 col-sm-12">
                   <div class="Services-box">
-                     <i><img src="images/graphic-tablet.png" alt="softky-services" /></i>
+                     <i><img src="images/graphic-tablet.png" alt="services" /></i>
                      <h3>Graphic interface</h3>
                      <p>Benefit from an easy-to-use Pterodactyl control panel with logs.</p>
                   </div>
@@ -265,23 +204,19 @@
          </div>
       </div>
 
-
-
       <footer class="footer">
          <div class="container">
            <div class="row">
              <div class="col-sm-12 col-md-6">
                <h6 class="title-company">SoulNode</h6>
-               <p class="buttom-txt">SoulNode is a free host created in 2024, joins SoulNode immediately</p>
+               <p class="buttom-txt">SoulNode is a free host created in 2024, join SoulNode immediately</p>
              </div>
-       
-
 
              <div class="col-xs-6 col-md-3">
                <h6>Categories</h6>
                <ul class="footer-links">
-                 <li><a href="#about">Discord</a></li>
-                 <li><a href="http://de.vpsfree.es:5607/server">Panel</a></li>
+                 <li><a href="">Discord</a></li>
+                 <li><a href="https://panel.soulnode.foxping.ovh">Panel</a></li>
                  <li><a href="team.html">Our team</a></li>
                  <li><a href="reviews.html">Reviews</a></li>
                </ul>
@@ -290,26 +225,29 @@
              <div class="col-xs-5 col-md-3">
                <h6>Legal</h6>
                <ul class="footer-links">
-                 <li><a href="legal.html">Terms & Conditions</a></li><br>
+                 <li><a href="legal.html">Terms & Conditions</a></li>
+                 <br>
                </ul>
              </div>
            </div>
            <hr>
          </div>
          <div class="container">
-           <div class="row">
-             <div class="col-md-8 col-sm-6 col-xs-12">
-               <div><p>Site designed and developed by <a style="color: #3366cc;" href="https://github.com/SahranREAL" rel="noopener" target="_blank">Sahran</a></p></div>
-               <p class="copyright-text">
-                  <span class="Softky">SoulNode</span> &copy; 2024 All Rights Reserved | proposed by<a style="color: #3366cc;" href="https://github.com/SahranREAL" rel="noopener" target="_blank"> Souliactyl V.0.0.3</a>
-               </p>
-             </div>
-             <div class="col-md-4 col-sm-6 col-xs-12 text-right">
-             </div>
-           </div>
+            <div class="row">
+               <div class="col-md-8 col-sm-6 col-xs-12">
+                  <div>
+                     <p>
+                        Site designed and developed by <a style="color: #3366cc;" href="https://github.com/SahranREAL" rel="noopener" target="_blank">Sahran</a>
+                     </p>
+                  </div>
+                  <p class="copyright-text">
+                     <span style="color: #3366cc;">SoulNode</span> &copy; 2024 All Rights Reserved | proposed by
+                     <a style="color: #3366cc;" href="https://github.com/SahranREAL" rel="noopener" target="_blank"> Souliactyl V.0.0.3</a>
+                  </p>
+               </div>
+            </div>
          </div>
-       </footer>
-       
+      </footer>
 
       <script src="js/jquery.min.js"></script>
       <script src="js/script.js"></script>
